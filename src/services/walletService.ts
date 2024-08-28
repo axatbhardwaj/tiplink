@@ -7,6 +7,7 @@ export function createKeypair() {
     return {
         publicKey: keypair.publicKey,
         secretKey: keypair.secretKey   //uint8Array
+        //convertting secret key to string base58
         // secretKey: Buffer.from(keypair.secretKey).toString('base64'),    string
     };
 }
