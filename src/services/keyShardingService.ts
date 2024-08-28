@@ -51,3 +51,5 @@ async function combineSecret(userShareString: string, platformShare1String: stri
         throw(error)
     }
 }
+
+export { splitSecret, combineSecret };
